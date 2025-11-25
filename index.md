@@ -2,11 +2,11 @@
 
 ## 💡 About Me
 
-I am a Computer Science student at **Lahore University of Management Sciences (LUMS)**, specializing in **Distributed AI Systems, Large Language Models (LLMs),** and **Computer Security**. My work focuses on the empirical analysis of large-scale content platforms and building robust, efficient AI pipelines.
+I am a Computer Science student at Lahore University of Management Sciences (LUMS), driven by the goal of bridging technology and policy through research that advances transparency, accountability, and security in digital platforms. My core interests lie at the intersection of large-scale systems measurement and computational social science, where I employ empirical data to audit platforms and evaluate existing policy frameworks.
 
 - **Email:** 26100228@lums.edu.pk
 - **LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/m-a-mughal)
-- **GitHub:** [GitHub Profile](https://github.com/AbubakarMughal)
+- **GitHub:** [GitHub Profile](https://github.com/AbubakarMugha1)
 - **Kaggle:** [Kaggle Profile](https://kaggle.com/mabubakarmughal)
 
 ---
