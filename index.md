@@ -8,6 +8,7 @@ I am a Computer Science student at Lahore University of Management Sciences (LUM
 - **LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/m-a-mughal)
 - **GitHub:** [GitHub Profile](https://github.com/AbubakarMugha1)
 - **Kaggle:** [Kaggle Profile](https://kaggle.com/mabubakarmughal)
+- **CV:** [Academic CV](assets/CV%20V3.pdf)
 
 ---
 
