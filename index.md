@@ -1,123 +1,64 @@
+# Muhammad Abubakar Mughal
+
+## 💡 About Me
+
+I am a Computer Science student at **Lahore University of Management Sciences (LUMS)**, specializing in **Distributed AI Systems, Large Language Models (LLMs),** and **Computer Security**. My work focuses on the empirical analysis of large-scale content platforms and building robust, efficient AI pipelines.
+
+- **Email:** 26100228@lums.edu.pk
+- **LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/m-a-mughal)
+- **GitHub:** [GitHub Profile](https://github.com/AbubakarMughal)
+- **Kaggle:** [Kaggle Profile](https://kaggle.com/mabubakarmughal)
+
 ---
-layout: default
+
+## 🔬 Research & Publications
+
+### The Synthetic Stream: Prevalence and Engagement with AI Content on YouTube
+**(Under review in ACM Web Conference 2026)**
+- **Role:** Co-author (Equal Contributions)
+- **Details:** Large-scale analysis of AI-generated content (AIGC) on YouTube. Collected a global dataset of 1.13M+ trending videos.
+- **Key Finding:** AI-tagged videos gained 10.2% more views but 46.7% fewer likes. Viewing one AI video raised the probability of subsequent AI exposure by 51%.
+
+### Security Evaluation of Agentic Browsers under Injection-Based Attacks
+**(Distributed & AI Systems Lab @ LUMS)**
+- **Role:** Research Assistant (Jan 2025 - Present)
+- **Details:** Designing an experimental framework to evaluate DOM-aware browser agents (e.g., Perplexity Comet) against prompt-injection and jailbreak attacks across major social media platforms.
+
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## 💻 Development Projects
 
-[Link to another page](./another-page.html).
+### Distributed Key-Value Store with Raft-Based Fault Tolerance (Go)
+- Implemented the **Raft consensus protocol** from scratch to ensure leader election, log replication, and **strong consistency**.
+- Achieved fault-tolerant recovery and stable operation under node failures through durable log persistence.
 
-There should be whitespace between paragraphs.
+### Document Retrieval and QA Pipeline (RAG) (Python, Langchain)
+- Engineered a RAG system using BGE-small embeddings and a local vector store.
+- Features **adaptive chunking** by document complexity and duplicate-document detection in ChromaDB.
+- Designed a modular LangChain pipeline with a **Streamlit UI** allowing dynamic swapping of LLMs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### Solar Panel Detection on Low-Res Satellite Imagery (Python, YOLO, QGIS)
+- Built a two-stage, fine-tuned **YOLO pipeline** to detect solar panels in low-resolution satellite imagery.
+- Curated and manually annotated ~330 satellite images of Lahore using QGIS/OpenCV.
+- Improved detection accuracy by using **SwinIR and SinSR super-resolution models**.
 
-# Header 1
+### Web Application Security Hardening (Python, FastAPI)
+- Implemented **OAuth 2.0 authentication** with JWT validation and Role-Based Access Control (RBAC).
+- Eliminated CSRF and XSS vectors by applying CSRF tokens, SameSite cookies, and rigorous input sanitization.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+---
 
-## Header 2
+## 👨‍🏫 Teaching Experience
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+- **Teaching Assistant, CS382: Network Centric Computing** (Jan 2025 – May 2025)
+- **Teaching Assistant, CS200: Object Oriented Programming** (Sep 2024 – Dec 2024)
 
-### Header 3
+---
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+## 🛠️ Skills Summary
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+| Category | Skills |
+| :--- | :--- |
+| **Languages** | C, C++, C#, Python, Go, Bash, MATLAB, SQL |
+| **AI/ML/Data** | LangChain, PyTorch, ChromaDB, TensorFlow, YOLO, OpenCV, Pandas |
+| **Tools** | Unity, AssetForge, Canva, QGIS, FastAPI, Selenium |
