@@ -34,28 +34,6 @@ My work sits at the intersection of **large-scale systems measurement** and **co
 
 ---
 
-## 💻 Development Projects
-
-### Distributed Key-Value Store with Raft (Go)
-* Implemented the **Raft consensus protocol** from scratch to ensure leader election, log replication, and **strong consistency**.
-* Achieved fault-tolerant recovery and stable operation under simulated node failures through durable log persistence.
-
-### Document Retrieval and QA Pipeline (Python, Langchain)
-* Engineered a RAG system using BGE-small embeddings and a local vector store.
-* Features **adaptive chunking** by document complexity and duplicate-document detection in ChromaDB.
-* Designed a modular LangChain pipeline with a **Streamlit UI** allowing dynamic swapping of LLMs.
-
-### Solar Panel Detection on Low-Res Imagery (Python, YOLO, QGIS)
-* Built a two-stage, fine-tuned **YOLO pipeline** to detect solar panels in low-resolution satellite imagery.
-* Curated and manually annotated ~330 satellite images of Lahore using QGIS/OpenCV.
-* Improved detection accuracy by integrating **SwinIR and SinSR super-resolution models**.
-
-### Web Application Security Hardening (Python, FastAPI)
-* Implemented **OAuth 2.0 authentication** with JWT validation and Role-Based Access Control (RBAC).
-* Eliminated CSRF and XSS vectors by applying CSRF tokens, SameSite cookies, and rigorous input sanitization.
-
----
-
 ## 🏎️ Beyond the Lab: Telemetry & Tactics
 
 When I’m not auditing code, I’m usually analyzing different kinds of systems.
