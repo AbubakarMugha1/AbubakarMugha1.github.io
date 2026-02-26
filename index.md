@@ -10,7 +10,7 @@ My work sits at the intersection of **large-scale systems measurement** and **co
 - **LinkedIn:** [LinkedIn Profile](https://linkedin.com/in/m-a-mughal)
 - **GitHub:** [GitHub Profile](https://github.com/AbubakarMugha1)
 - **Kaggle:** [Kaggle Profile](https://kaggle.com/mabubakarmughal)
-- **CV:** [Academic CV](assets/CV%20V3.pdf)
+- **CV:** [Academic CV](assets/CV - M Abubakar Mughal.pdf)
 
 ---
 
