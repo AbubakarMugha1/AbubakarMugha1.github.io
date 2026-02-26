@@ -29,7 +29,7 @@ My research sits at the intersection of **large-scale measurement**, **platform 
 <p align="center">
   <img src="assets/Visualizations/Infographic%20NotebookLM.png" 
        alt="Synthetic Stream Infographic"
-       width="80%">
+       width="100%">
 </p>
 
 
