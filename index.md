@@ -25,6 +25,13 @@ My research sits at the intersection of **large-scale measurement**, **platform 
     * AI-tagged videos gained **10.2% more views** but received **46.7% fewer likes**, suggesting passive consumption but active dislike.
     * **Algorithmic Traps:** Viewing just one AI video raised the probability of subsequent AI exposure by **51%**.
     * **User Study:** Low digitally literate users were only able to detect AI generated content with **42%** accuracy compared to **77%** for high digitally literate users.
+ 
+<p align="center">
+  <img src="assets/Visualizations/Infographic%20NotebookLM.png" 
+       alt="Synthetic Stream Infographic"
+       width="30%">
+</p>
+
 
 ### 2. Security Evaluation of Agentic Browsers under Injection-Based Attacks
 *(Distributed & AI Systems Lab @ LUMS)* | **Oct 2025 - Present**
