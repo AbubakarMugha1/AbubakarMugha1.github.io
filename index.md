@@ -1,5 +1,3 @@
-# Muhammad Abubakar Mughal
-
 ## 💡 Auditing the Digital Ecosystem
 
 I am a Computer Science student at Lahore University of Management Sciences (LUMS), but I view myself primarily as an empirical auditor. I treat digital platforms not as black boxes, but as public squares that need inspection.
