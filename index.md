@@ -50,9 +50,8 @@ My research sits at the intersection of **large-scale measurement**, **platform 
 
 ---
 
-## 🛠️ Skills Summary
+## 🛠️ Skills
 
-| Category | Skills |
 | :--- | :--- |
 | **Languages** | C, C++, C#, Python, Go, Bash, MATLAB, SQL |
 | **AI/ML/Data** | LangChain, PyTorch, ChromaDB, TensorFlow, YOLO, OpenCV, Pandas |
