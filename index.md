@@ -15,9 +15,10 @@ My research sits at the intersection of **large-scale measurement**, **platform 
 ## 🔬 Research & Publications
 
 ### 1. The Synthetic Stream: Prevalence and Engagement of AI Content on YouTube  
-[Muhammad Muiz Farhan¹, Muhammad Abubakar Mughal¹, Ihsan Ayyub Qazi, Zafar Ayyub Qazi]  
-
-<sup>¹</sup> Equal contribution  
+[Muhammad Muiz Farhan¹, Muhammad Abubakar Mughal¹, Ihsan Ayyub Qazi, Zafar Ayyub Qazi] 
+<span style="font-size:0.8em; color:#666;">
+<sup>1</sup> Equal contribution
+</span>
 
 *Under review in **AAAI ICWSM*** | **Role:** First Author (Equal Contribution)
 
