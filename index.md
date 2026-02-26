@@ -20,7 +20,7 @@ My research sits at the intersection of **large-scale measurement**, **platform 
 <sup>1</sup> Equal contribution
 </span>
 
-*Under review in **AAAI ICWSM*** | **Role:** First Author (Equal Contribution)
+*Under review in **AAAI ICWSM*** | **Role:** First Author
 
 * **The Problem:** Platforms claim to label AI content, but we lack empirical data on how prevalent this content is and how users actually engage with it.
 * **The Method:** Designed a custom scraping pipeline to collect a global dataset of **1.13M+ trending videos** and 224k recommendations.
