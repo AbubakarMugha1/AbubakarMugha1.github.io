@@ -60,9 +60,7 @@ My research sits at the intersection of **large-scale measurement**, **platform 
 
 ---
 
-## 
-
-My past-time activities include watching Formula 1 and playing video games. I have recently been grinding a lot of War Thunder.
+My past-time activities include watching Formula 1 and playing video games. I have recently been grinding a lot of War Thunder. I'm open to exploring other games though so reach out if you want to play sometime 😊.
 
 ---
 *© 2025 Muhammad Abubakar Mughal. Built to bridge the gap between policy and code.*
