@@ -14,8 +14,8 @@ My research sits at the intersection of **large-scale measurement**, **platform 
 
 ## 🔬 Research & Publications
 
-### 1. The Synthetic Stream: Prevalence and Engagement of AI Content on YouTube
-*Under review in **AAAI ICWSM*** | **Role:** First Author (Equal Contributions)
+### 1. The Synthetic Stream: Prevalence and Engagement of AI Content on YouTube [Muhammad Muiz Farhan, Muhammad Abubakar Mughal, Ihsan Ayyub Qazi, Zafar Ayyub Qazi]
+*Under review in **AAAI ICWSM*** | **Role:** First Author (*Equal Contributions)
 
 * **The Problem:** Platforms claim to label AI content, but we lack empirical data on how prevalent this content is and how users actually engage with it.
 * **The Method:** Designed a custom scraping pipeline to collect a global dataset of **1.13M+ trending videos** and 224k recommendations.
