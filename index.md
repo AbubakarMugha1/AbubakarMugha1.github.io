@@ -37,6 +37,7 @@ My research sits at the intersection of **large-scale measurement**, **platform 
 
 ## 👨‍🏫 Teaching Experience
 
+* **Teaching Assistant, CS473: Network Security** (Jan 2026 – Present)
 * **Teaching Assistant, CS382: Network Centric Computing** (Jan 2025 – May 2025)
 * **Teaching Assistant, CS200: Object Oriented Programming** (Sep 2024 – Dec 2024)
 
