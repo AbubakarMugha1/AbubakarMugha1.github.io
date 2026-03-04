@@ -49,6 +49,7 @@ I am a Computer Science senior at the Lahore University of Management Sciences (
 * **Teaching Assistant, CS473: Network Security** (Jan 2026 – Present)
 * **Teaching Assistant, CS382: Network Centric Computing** (Jan 2025 – May 2025)
 * **Teaching Assistant, CS200: Object Oriented Programming** (Sep 2024 – Dec 2024)
+  
 ---
 
 ##  Skills
