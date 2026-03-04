@@ -1,4 +1,4 @@
-## 
+## About Me
 
 I am a Computer Science senior at the Lahore University of Management Sciences (LUMS). I work as an undergraduate researcher at the Distributed & AI Systems Lab under the guidance of [Dr. Zafar Ayyub Qazi](https://web.lums.edu.pk/~zafar/). My area of interest is **social computing**. More specifically I am interested in **platform auditing** and **large-scale measurement** studies.
 
