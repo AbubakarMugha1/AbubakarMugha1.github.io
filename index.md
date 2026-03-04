@@ -37,7 +37,7 @@ I am a Computer Science senior at the Lahore University of Management Sciences (
 
 
 ### 2. Security Evaluation of Agentic Browsers under Injection-Based Attacks
-*(Distributed & AI Systems Lab @ LUMS)* | **Oct 2025 - Present**
+*Distributed & AI Systems Lab @ LUMS* | **Oct 2025 - Present**
 
 * **The Context:** As AI agents (like Perplexity Comet & ChatGPT Atlas) begin browsing the web autonomously, they face increasingly complex attacks  that standard LLMs do not.
 * **The Method:** Designing an experimental framework to evaluate browser agents against prompt-injection and jailbreak attacks across major social media platforms.
