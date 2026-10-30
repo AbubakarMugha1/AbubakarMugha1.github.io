@@ -58,18 +58,23 @@
   src: url('../fonts/figtree-latin-700-normal.woff2') format('woff2');
 }
 
+/* Palette: neon blue + lilac.
+   --blue and --lilac are the two accents; everything else is tinted toward them. */
 :root {
-  --bg: #faf9f5;
-  --ink: #141413;
-  --text: #3d3d3a;
-  --muted: #6e6d66;
-  --rule: #e4e1d8;
-  --link: #1155cc;
-  --link-hover: #0e46a3;
-  --chip: #efede4;
-  --chip-hover: #e5e2d8;
-  --chip-border: rgb(20 20 19 / 0.12);
-  --dot: #b4b2a9;
+  --bg: #f8f7fd;
+  --ink: #16142b;
+  --text: #3c3954;
+  --muted: #6d6889;
+  --rule: #e2ddf3;
+  --blue: #2b4dff;
+  --lilac: #8b5cf6;
+  --link: var(--blue);
+  --link-hover: #6d3fe0;
+  --chip: #f0ebfd;
+  --chip-hover: #e6dcfb;
+  --chip-border: rgb(139 92 246 / 0.22);
+  --dot: #b49af0;
+  --glow: rgb(43 77 255 / 0.1);
   --serif: 'Lora', Georgia, 'Times New Roman', serif;
   --sans: 'Figtree', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
   --measure: 46rem;
@@ -77,17 +82,20 @@
 }
 
 :root[data-theme='dark'] {
-  --bg: #1a1917;
-  --ink: #edebe4;
-  --text: #cdcac1;
-  --muted: #9b988e;
-  --rule: #33312d;
-  --link: #8cb2ff;
-  --link-hover: #b3ccff;
-  --chip: #262522;
-  --chip-hover: #302e2a;
-  --chip-border: rgb(237 235 228 / 0.14);
-  --dot: #5f5c55;
+  --bg: #0e0d1a;
+  --ink: #f2efff;
+  --text: #cac5e3;
+  --muted: #918bb2;
+  --rule: #2a2645;
+  --blue: #4fd1ff;
+  --lilac: #c4a1ff;
+  --link: var(--blue);
+  --link-hover: var(--lilac);
+  --chip: #1a1730;
+  --chip-hover: #231f3e;
+  --chip-border: rgb(196 161 255 / 0.22);
+  --dot: #a988f2;
+  --glow: rgb(79 209 255 / 0.16);
   color-scheme: dark;
 }
 
@@ -735,4 +743,53 @@ footer p {
   .toc {
     display: none;
   }
+}
+
+/* ---------- Neon blue + lilac accents ---------- */
+
+::selection {
+  background: rgb(139 92 246 / 0.22);
+}
+
+h2::after {
+  height: 1.5px;
+  background: linear-gradient(90deg, var(--blue), var(--lilac) 45%, var(--rule) 85%);
+  opacity: 0.75;
+}
+
+.venue,
+.pub-num {
+  color: var(--lilac);
+}
+
+.finding {
+  border-left: 3px solid var(--blue);
+  background: linear-gradient(135deg, var(--chip), color-mix(in srgb, var(--chip) 70%, var(--bg)));
+  box-shadow: 0 6px 24px var(--glow);
+}
+
+.finding .label {
+  color: var(--blue);
+}
+
+.btn:hover,
+.interests li:hover {
+  border-color: var(--lilac);
+}
+
+.theme-toggle[aria-pressed='true'] {
+  color: var(--lilac);
+}
+
+figure img {
+  box-shadow: 0 6px 24px var(--glow);
+}
+
+:root[data-theme='dark'] a:hover,
+:root[data-theme='dark'] .icons a:hover {
+  text-shadow: 0 0 12px rgb(196 161 255 / 0.45);
+}
+
+:root[data-theme='dark'] .icons a:hover svg {
+  filter: drop-shadow(0 0 6px rgb(79 209 255 / 0.55));
 }
