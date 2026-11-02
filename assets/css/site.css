@@ -793,3 +793,46 @@ figure img {
 :root[data-theme='dark'] .icons a:hover svg {
   filter: drop-shadow(0 0 6px rgb(79 209 255 / 0.55));
 }
+
+/* ---------- Research roles and tags ---------- */
+
+.roles {
+  margin: 0.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.roles li {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  margin: 0 0 0.2rem;
+  padding: 0;
+  color: var(--ink);
+  font-style: italic;
+}
+
+.tag {
+  display: inline-block;
+  margin-left: 0.4rem;
+  padding: 0.05rem 0.5rem;
+  border: 1px solid var(--chip-border);
+  border-radius: 999px;
+  background: var(--chip);
+  color: var(--lilac);
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: 0.12em;
+}
+
+.entries .skills {
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 36rem) {
+  .roles li {
+    flex-direction: column;
+    gap: 0;
+  }
+}
