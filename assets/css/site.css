@@ -1076,3 +1076,10 @@ footer {
 .dg-callout { stroke: var(--lilac); stroke-width: 1.25; }
 .dg .dg-note.dg-b { font-weight: 700; }
 .dg-head-lilac { fill: var(--lilac); }
+
+.disclaimer {
+  display: block;
+  margin-top: 0.3rem;
+  font-size: 0.88rem;
+  font-style: italic;
+}
