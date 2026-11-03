@@ -933,3 +933,137 @@ figcaption {
 footer {
   color: var(--text);
 }
+
+/* ---------- System diagram (inline SVG; follows light/dark mode) ---------- */
+
+.diagram {
+  margin-top: 1.25rem;
+  padding: 1.25rem 1.25rem 0.9rem;
+  border: 1px solid var(--chip-border);
+  border-radius: 12px;
+  background: var(--bg);
+  box-shadow: 0 6px 24px var(--glow);
+}
+
+.dg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.dg-tall {
+  display: none;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+@media (max-width: 44rem) {
+  .dg-wide {
+    display: none;
+  }
+
+  .dg-tall {
+    display: block;
+  }
+
+  .diagram {
+    padding: 1rem 0.75rem 0.75rem;
+  }
+}
+
+.dg text {
+  font-family: var(--sans);
+  fill: var(--ink);
+}
+
+.dg .dg-t { font-size: 13px; font-weight: 500; }
+.dg .dg-s { font-size: 11px; font-weight: 500; fill: var(--text); }
+.dg .dg-xs { font-size: 9.5px; }
+.dg .dg-b { font-weight: 700; }
+.dg .dg-i { font-style: italic; }
+.dg .dg-h { font-size: 10px; font-weight: 700; letter-spacing: 0.12em; }
+.dg .dg-h-blue { fill: var(--blue); }
+.dg .dg-h-lilac { fill: var(--lilac); }
+
+.dg-box,
+.dg-q {
+  fill: var(--bg);
+  stroke: color-mix(in srgb, var(--ink) 22%, transparent);
+  stroke-width: 1;
+}
+
+.dg-q {
+  stroke: color-mix(in srgb, var(--lilac) 55%, transparent);
+}
+
+.dg-chip,
+.dg-tile {
+  fill: var(--chip);
+  stroke: var(--chip-border);
+  stroke-width: 1;
+}
+
+.dg-kv {
+  fill: color-mix(in srgb, var(--blue) 14%, var(--bg));
+  stroke: var(--blue);
+  stroke-width: 1.25;
+}
+
+.dg-lora {
+  fill: color-mix(in srgb, var(--lilac) 16%, var(--bg));
+  stroke: var(--lilac);
+  stroke-width: 1;
+}
+
+.dg-stage-blue {
+  fill: color-mix(in srgb, var(--blue) 5%, transparent);
+  stroke: color-mix(in srgb, var(--blue) 35%, transparent);
+  stroke-width: 1;
+}
+
+.dg-stage-lilac {
+  fill: color-mix(in srgb, var(--lilac) 6%, transparent);
+  stroke: color-mix(in srgb, var(--lilac) 40%, transparent);
+  stroke-width: 1;
+}
+
+.dg-line {
+  fill: none;
+  stroke: color-mix(in srgb, var(--ink) 45%, transparent);
+  stroke-width: 1.25;
+}
+
+.dg-head {
+  fill: color-mix(in srgb, var(--ink) 55%, transparent);
+}
+
+.dg-play {
+  fill: color-mix(in srgb, var(--ink) 45%, transparent);
+}
+
+.dg-wave {
+  stroke: color-mix(in srgb, var(--ink) 55%, transparent);
+  stroke-width: 2;
+  stroke-linecap: round;
+}
+
+.dg-track {
+  fill: none;
+  stroke: color-mix(in srgb, var(--ink) 25%, transparent);
+  stroke-width: 1;
+}
+
+.dg-fill-blue { fill: var(--blue); }
+.dg-fill-lilac { fill: var(--lilac); }
+
+:root[data-theme='dark'] .diagram figcaption,
+.diagram figcaption {
+  margin-top: 0.85rem;
+}
+
+.dg .dg-q-t { font-size: 12.5px; font-weight: 500; }
+
+.diagram figcaption {
+  font-size: 0.88rem;
+}
