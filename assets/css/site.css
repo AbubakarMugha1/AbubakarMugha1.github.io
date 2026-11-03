@@ -1090,10 +1090,13 @@ footer {
   display: grid;
   grid-template-columns: minmax(0, 1fr) 12.5rem;
   gap: 1.5rem;
-  align-items: start;
+  align-items: stretch;
 }
 
 .project-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 0;
   padding: 0.6rem;
   border: 1px solid var(--chip-border);
