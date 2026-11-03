@@ -1088,14 +1088,14 @@ footer {
 
 .has-media {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 17rem;
-  gap: 1.75rem;
+  grid-template-columns: minmax(0, 1fr) 11rem;
+  gap: 1.5rem;
   align-items: start;
 }
 
 .project-media {
   margin: 0;
-  padding: 0.75rem 0.75rem 0.6rem;
+  padding: 0.6rem;
   border: 1px solid var(--chip-border);
   border-radius: 12px;
   background: var(--bg);
@@ -1116,7 +1116,7 @@ footer {
   }
 
   .project-media {
-    max-width: 22rem;
+    max-width: 13rem;
   }
 }
 
@@ -1155,7 +1155,7 @@ footer {
 
 .rf-label {
   font-family: var(--sans);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 700;
   fill: var(--ink);
 }
