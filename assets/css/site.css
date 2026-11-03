@@ -1088,7 +1088,7 @@ footer {
 
 .has-media {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 11rem;
+  grid-template-columns: minmax(0, 1fr) 12.5rem;
   gap: 1.5rem;
   align-items: start;
 }
@@ -1116,7 +1116,7 @@ footer {
   }
 
   .project-media {
-    max-width: 13rem;
+    max-width: 14.5rem;
   }
 }
 
@@ -1226,3 +1226,59 @@ footer {
   font-weight: 600;
   fill: var(--ink);
 }
+
+/* ---------- Shared styles for the project animations ---------- */
+
+.pa-box { fill: var(--bg); stroke: color-mix(in srgb, var(--ink) 30%, transparent); stroke-width: 1.25; }
+.pa-evil { stroke: var(--lilac); stroke-dasharray: 3 2.5; }
+.pa-active { stroke: var(--blue); stroke-width: 2; fill: color-mix(in srgb, var(--blue) 12%, var(--bg)); }
+.pa-pill { fill: var(--chip); stroke: var(--chip-border); stroke-width: 1; }
+.pa-line { fill: none; stroke: color-mix(in srgb, var(--ink) 45%, transparent); stroke-width: 1.25; }
+.pa-faint { stroke: color-mix(in srgb, var(--ink) 12%, transparent); stroke-width: 1; }
+.pa-dash { stroke: color-mix(in srgb, var(--ink) 35%, transparent); stroke-width: 1.25; stroke-dasharray: 3 3; }
+.pa-head { fill: color-mix(in srgb, var(--ink) 50%, transparent); }
+.pa-dot { fill: color-mix(in srgb, var(--ink) 30%, transparent); }
+.pa-bar { fill: color-mix(in srgb, var(--ink) 18%, transparent); }
+.pa-scan { fill: var(--lilac); }
+.pa-hit { fill: var(--blue); }
+.pa-ack { fill: color-mix(in srgb, var(--ink) 45%, transparent); }
+.pa-label, .pa-small, .pa-tiny { font-family: var(--sans); fill: var(--ink); }
+.pa-label { font-size: 12px; font-weight: 700; }
+.pa-small { font-size: 10px; font-weight: 600; }
+.pa-tiny { font-size: 8.5px; font-weight: 700; letter-spacing: 0.04em; }
+
+.sp-ground { fill: color-mix(in srgb, var(--ink) 6%, var(--bg)); }
+.sp-road { fill: color-mix(in srgb, var(--ink) 12%, var(--bg)); }
+.sp-roof { fill: color-mix(in srgb, var(--ink) 20%, var(--bg)); }
+.sp-roof2 { fill: color-mix(in srgb, var(--ink) 28%, var(--bg)); }
+.sp-panel { fill: color-mix(in srgb, var(--blue) 55%, var(--ink) 25%); }
+.sp-scan { stroke: var(--lilac); stroke-width: 2; }
+.sp-box { fill: none; stroke: var(--lilac); stroke-width: 1.5; }
+.sp-tag { fill: var(--lilac); }
+
+.sc-gate { fill: var(--chip); stroke: var(--chip-border); stroke-width: 1; transition: fill 0.2s ease, stroke 0.2s ease; }
+.sc-pass { fill: color-mix(in srgb, var(--blue) 18%, var(--bg)); stroke: var(--blue); }
+.sc-block { fill: color-mix(in srgb, var(--lilac) 22%, var(--bg)); stroke: var(--lilac); }
+.sc-shield { fill: none; stroke: color-mix(in srgb, var(--ink) 55%, transparent); stroke-width: 1.25; }
+.sc-ok { fill: var(--blue); }
+.sc-bad { fill: var(--bg); stroke: var(--lilac); stroke-width: 1.5; }
+.sc-blocked { fill: color-mix(in srgb, var(--lilac) 25%, var(--bg)); }
+.sc-clean { fill: var(--bg); stroke: color-mix(in srgb, var(--ink) 45%, transparent); stroke-width: 1.5; }
+.sc-glyph { font-family: var(--sans); font-size: 9px; font-weight: 700; fill: var(--ink); text-anchor: middle; }
+.sc-ok + .sc-glyph { fill: var(--bg); }
+.sc-x { font-family: var(--sans); font-size: 12px; font-weight: 700; fill: var(--lilac); }
+
+.ls-ground { fill: color-mix(in srgb, var(--ink) 5%, var(--bg)); stroke: color-mix(in srgb, var(--ink) 18%, transparent); stroke-width: 1; }
+.ls-walk { stroke: color-mix(in srgb, var(--ink) 22%, transparent); stroke-width: 1.25; stroke-dasharray: 3 3; }
+.ls-node { fill: none; stroke: var(--blue); stroke-width: 1.25; }
+.ls-ring { fill: none; stroke: var(--blue); stroke-width: 2.5; opacity: 0; }
+.ls-top { fill: color-mix(in srgb, var(--ink) 7%, var(--bg)); stroke: color-mix(in srgb, var(--ink) 35%, transparent); stroke-width: 1; }
+.ls-l { fill: color-mix(in srgb, var(--ink) 16%, var(--bg)); stroke: color-mix(in srgb, var(--ink) 35%, transparent); stroke-width: 1; }
+.ls-r { fill: color-mix(in srgb, var(--ink) 26%, var(--bg)); stroke: color-mix(in srgb, var(--ink) 35%, transparent); stroke-width: 1; }
+.ls-event { fill: color-mix(in srgb, var(--lilac) 35%, var(--bg)); stroke: var(--lilac); }
+.ls-pin { fill: var(--blue); }
+.ls-pin-dot { fill: var(--bg); }
+.ls-shadow { fill: color-mix(in srgb, var(--ink) 25%, transparent); }
+.ls-badge { fill: var(--lilac); }
+.ls-badge-t { font-family: var(--sans); font-size: 8.5px; font-weight: 700; fill: var(--bg); }
+.ls-badge-l { stroke: var(--lilac); stroke-width: 1.25; }
