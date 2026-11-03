@@ -5,7 +5,7 @@
   if (!svg) return;
 
   var NS = 'http://www.w3.org/2000/svg';
-  var N = 5, CX = 135, CY = 108, R = 70, NODE_R = 15, LOG_MAX = 5;
+  var N = 5, CX = 135, CY = 104, R = 68, NODE_R = 17, LOG_MAX = 5;
   var HB = 1.3, FLIGHT = 0.7, CRASH_AFTER = 7, RECOVER_AFTER = 3.5;
 
   function el(tag, attrs, parent) {
@@ -19,7 +19,6 @@
   var gLinks = el('g', {});
   var gPackets = el('g', {});
   var gNodes = el('g', {});
-  var status = el('text', { x: CX, y: 222, 'text-anchor': 'middle', class: 'rf-status' });
 
   var nodes = [];
   for (var i = 0; i < N; i++) {
@@ -38,7 +37,7 @@
       'stroke-dasharray': RING, 'stroke-dashoffset': RING,
       transform: 'rotate(-90 ' + n.x + ' ' + n.y + ')' }, g);
     n.circle = el('circle', { cx: n.x, cy: n.y, r: NODE_R, class: 'rf-node' }, g);
-    n.label = el('text', { x: n.x, y: n.y + 3.5, 'text-anchor': 'middle', class: 'rf-label' }, g);
+    n.label = el('text', { x: n.x, y: n.y + 4, 'text-anchor': 'middle', class: 'rf-label' }, g);
     n.label.textContent = 'S' + (n.id + 1);
     // log strip on the server's outer side: above S1, beside S2/S5, below S3/S4
     n.cells = [];
@@ -225,7 +224,6 @@
       e.setAttribute('class', 'rf-pk rf-pk-' + pk.type + (nodes[pk.to].crashed ? ' rf-dim' : ''));
     });
 
-    status.textContent = statusText;
   }
 
   // ---------- run ----------
