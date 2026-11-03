@@ -86,8 +86,8 @@
               <li><a href="#publications">Publications</a></li>
               <li><a href="#research">Research</a></li>
               <li><a href="#teaching">Teaching</a></li>
-              <li><a href="#experience">Experience</a></li>
               <li><a href="#projects">Projects</a></li>
+              <li><a href="#experience">Experience</a></li>
               <li><a href="#background">Background</a></li>
               <li>
                 <button class="theme-toggle" type="button" aria-pressed="false">
@@ -337,6 +337,77 @@
           </div>
         </section>
 
+        <section id="projects" aria-labelledby="projects-h">
+          <h2 id="projects-h">Development projects</h2>
+
+          <div class="entries">
+            <article class="has-media">
+              <div>
+                <h3>Distributed Key-Value Store with Raft-Based Fault Tolerance</h3>
+                <p class="org">Go</p>
+                <ul>
+                  <li>
+                    Built a fault-tolerant key-value store on a from-scratch implementation of the Raft consensus
+                    protocol, with leader election and log replication.
+                  </li>
+                </ul>
+              </div>
+              <figure class="project-media">
+                <svg
+                  id="raft-sim"
+                  class="rf"
+                  viewBox="0 0 270 232"
+                  role="img"
+                  aria-label="Animation of a five-server Raft cluster: the leader sends heartbeats and log entries to followers; when the leader fails, a follower times out, wins a vote and becomes the new leader."
+                ></svg>
+                <figcaption>
+                  Leader sends heartbeats and log entries. Rings are election timers. When the leader fails, a follower
+                  times out, wins a vote and takes over.
+                </figcaption>
+              </figure>
+            </article>
+            <article>
+              <h3>Document Retrieval and QA Pipeline (RAG)</h3>
+              <p class="org">Python, LangChain, HuggingFace</p>
+              <ul>
+                <li>
+                  Built a RAG system for question answering over PDF, Word and text documents using BGE-small embeddings
+                  and ChromaDB, with a modular LangChain and Streamlit design that allows swapping LLMs and embedding
+                  models.
+                </li>
+                <li>Added duplicate-document detection and complexity-adaptive chunking, improving retrieval precision.</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Solar Panel Detection on Low-Resolution Satellite Imagery</h3>
+              <p class="org">Python, YOLO, QGIS, OpenCV</p>
+              <ul>
+                <li>Fine-tuned a two-stage YOLO pipeline on ~330 manually annotated satellite images of Lahore to detect solar panels.</li>
+                <li>Improved detection accuracy by super-resolving test images with SwinIR and SinSR.</li>
+              </ul>
+            </article>
+            <article>
+              <h3>Web Application Security Hardening</h3>
+              <p class="org">Python, FastAPI</p>
+              <ul>
+                <li>Implemented OAuth 2.0 authentication with JWT validation and role-based access control in a FastAPI application.</li>
+                <li>
+                  Exploited CSRF and XSS vulnerabilities in controlled scenarios, then mitigated them with CSRF tokens,
+                  SameSite cookies and input sanitization.
+                </li>
+              </ul>
+            </article>
+            <article>
+              <h3>LUMScape: Interactive 3D Campus Map</h3>
+              <p class="org">Asset Forge, Unity</p>
+              <ul>
+                <li>Modeled low-poly campus buildings and assembled them into a spatially accurate Unity scene for a campus digital twin.</li>
+                <li>Implemented first-person navigation, fast-travel nodes and real-time facility and event overlays.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
         <section id="experience" aria-labelledby="experience-h">
           <h2 id="experience-h">Professional experience</h2>
 
@@ -383,62 +454,6 @@
               <p class="org">RolusTech – CRM and Cloud Solutions · Lahore, Pakistan</p>
               <ul>
                 <li>Built responsive HTML/CSS pages from Figma designs in close coordination with the team designer.</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section id="projects" aria-labelledby="projects-h">
-          <h2 id="projects-h">Development projects</h2>
-
-          <div class="entries">
-            <article>
-              <h3>Distributed Key-Value Store with Raft-Based Fault Tolerance</h3>
-              <p class="org">Go</p>
-              <ul>
-                <li>
-                  Built a fault-tolerant key-value store on a from-scratch implementation of the Raft consensus protocol,
-                  with leader election and log replication.
-                </li>
-              </ul>
-            </article>
-            <article>
-              <h3>Document Retrieval and QA Pipeline (RAG)</h3>
-              <p class="org">Python, LangChain, HuggingFace</p>
-              <ul>
-                <li>
-                  Built a RAG system for question answering over PDF, Word and text documents using BGE-small embeddings
-                  and ChromaDB, with a modular LangChain and Streamlit design that allows swapping LLMs and embedding
-                  models.
-                </li>
-                <li>Added duplicate-document detection and complexity-adaptive chunking, improving retrieval precision.</li>
-              </ul>
-            </article>
-            <article>
-              <h3>Solar Panel Detection on Low-Resolution Satellite Imagery</h3>
-              <p class="org">Python, YOLO, QGIS, OpenCV</p>
-              <ul>
-                <li>Fine-tuned a two-stage YOLO pipeline on ~330 manually annotated satellite images of Lahore to detect solar panels.</li>
-                <li>Improved detection accuracy by super-resolving test images with SwinIR and SinSR.</li>
-              </ul>
-            </article>
-            <article>
-              <h3>Web Application Security Hardening</h3>
-              <p class="org">Python, FastAPI</p>
-              <ul>
-                <li>Implemented OAuth 2.0 authentication with JWT validation and role-based access control in a FastAPI application.</li>
-                <li>
-                  Exploited CSRF and XSS vulnerabilities in controlled scenarios, then mitigated them with CSRF tokens,
-                  SameSite cookies and input sanitization.
-                </li>
-              </ul>
-            </article>
-            <article>
-              <h3>LUMScape: Interactive 3D Campus Map</h3>
-              <p class="org">Asset Forge, Unity</p>
-              <ul>
-                <li>Modeled low-poly campus buildings and assembled them into a spatially accurate Unity scene for a campus digital twin.</li>
-                <li>Implemented first-person navigation, fast-travel nodes and real-time facility and event overlays.</li>
               </ul>
             </article>
           </div>
@@ -492,5 +507,6 @@
     </div>
 
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/raft.js"></script>
   </body>
 </html>
